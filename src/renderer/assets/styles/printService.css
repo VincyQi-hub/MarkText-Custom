@@ -1,0 +1,108 @@
+body .ag-render-container {
+  position: fixed;
+  left: -10000px;
+  right: -10000px;
+  max-width: 100%;
+}
+
+body article.print-container {
+  display: none;
+}
+
+@media print {
+  /* Set all settings like margin with @page or Electron settings. */
+  @page {
+    margin: 15mm 20mm 15mm 20mm;
+  }
+
+  .editor-container {
+    display: none !important;
+  }
+
+  /* General rules for printing. */
+  html, body {
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+    height: auto !important;
+    background: #ffffff !important;
+    overflow: hidden;
+  }
+
+  body {
+    position: relative !important;
+    height: auto !important;
+  }
+
+  body > div,
+  body > svg {
+    display: none !important;
+  }
+
+  body article.print-container {
+    display: block;
+  }
+  body article.print-container {
+    height: 100%;
+  }
+  body article.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  body article.markdown-body table {
+    display: table;
+  }
+  /* 分页控制：标题不与后续内容分离；表格/图片尽量不拆页（避免表格被推到下一页） */
+  body article.markdown-body h1,
+  body article.markdown-body h2,
+  body article.markdown-body h3,
+  body article.markdown-body h4,
+  body article.markdown-body h5,
+  body article.markdown-body h6 {
+    page-break-after: avoid;
+  }
+  body article.markdown-body .ag-table-wrap,
+  body article.markdown-body img {
+    page-break-inside: avoid;
+  }
+  /* 打印时确保块级元素环绕浮动图片（覆盖可能的主题干扰；段落 p 不加，保持文字环绕） */
+  body article.markdown-body blockquote,
+  body article.markdown-body pre,
+  body article.markdown-body ul,
+  body article.markdown-body ol,
+  body article.markdown-body h1,
+  body article.markdown-body h2,
+  body article.markdown-body h3,
+  body article.markdown-body h4,
+  body article.markdown-body h5,
+  body article.markdown-body h6,
+  body article.markdown-body p {
+    display: flow-root !important;
+  }
+  body article.markdown-body input[type="checkbox"] ~ p {
+    margin-top: 0;
+    display: inline-block;
+  }
+  body article.markdown-body pre code.fenced-code-block {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  body article.markdown-body .flowchart,
+  body article.markdown-body .sequence,
+  body article.markdown-body .plantuml,
+  body article.markdown-body .mermaid,
+  body article.markdown-body .vega-embed {
+    text-align: center;
+  }
+  body article.markdown-body .flowchart > svg,
+  body article.markdown-body .sequence > svg,
+  body article.markdown-body .plantuml > svg,
+  body article.markdown-body .plantuml > img,
+  body article.markdown-body .mermaid > svg,
+  body article.markdown-body .vega-embed > svg {
+    max-width: 100%;
+  }
+}
