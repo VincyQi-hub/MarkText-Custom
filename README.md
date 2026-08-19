@@ -19,27 +19,27 @@
 
 - ### 图标修改：图标修改为更符合MD文档编辑的风格
   
-  <img src="file:///C:/Users/Dvincy/Desktop/markText-custom-master/assets/README/2026-08-19-01.png" title="" alt="2026-08-19-01.png" width="111">
+   ![2026-08-19-03.png](https://github.com/VincyQi-hub/markText-custom/blob/main/assets/README/2026-08-19-01.png?raw=true)
 
 - ### 表格整体的对齐方式：左中右/整行居中
   
-  <img src="file:///C:/Users/Dvincy/Desktop/markText-custom-master/assets/README/2026-08-19-02.png" title="" alt="2026-08-19-02.png" width="660">
+   ![2026-08-19-03.png](https://github.com/VincyQi-hub/markText-custom/blob/main/assets/README/2026-08-19-02.png?raw=true)
 
 - ### 图片的文字环绕效果：
   
-  ![2026-08-19-03.png](C:\Users\Dvincy\Desktop\markText-custom-master\assets\README\2026-08-19-03.png)
+  ![2026-08-19-03.png](https://github.com/VincyQi-hub/markText-custom/blob/main/assets/README/2026-08-19-03.png?raw=true)
 
 - ### 退出时保存：位置更符合主流软件
   
-  ![2026-08-19-04.png](C:\Users\Dvincy\Desktop\markText-custom-master\assets\README\2026-08-19-04.png)
+  ![2026-08-19-04.png](https://github.com/VincyQi-hub/markText-custom/blob/main/assets/README/2026-08-19-04.png?raw=true)
 
 - ### windows 资源管理器：预览MD文件（需要安装Powertoy）
 
-<img src="file:///C:/Users/Dvincy/Desktop/markText-custom-master/assets/README/2026-08-19-06.png" title="" alt="2026-08-19-06.png" width="632">
+![2026-08-19-04.png](https://github.com/VincyQi-hub/markText-custom/blob/main/assets/README/2026-08-19-06.png?raw=true)
 
 - ### 卸载弹窗：是否删除用户配置文字汉化补充
 
-![2026-08-19-05.png](C:\Users\Dvincy\Desktop\markText-custom-master\assets\README\2026-08-19-05.png)
+![2026-08-19-05.png](https://github.com/VincyQi-hub/markText-custom/blob/main/assets/README/2026-08-19-05.png?raw=true)
 
 ## 📦 安装
 
